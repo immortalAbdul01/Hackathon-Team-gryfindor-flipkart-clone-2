@@ -13,7 +13,8 @@ export default function Home({products}) {
     <main className="max-w-screen-2xl mx-auto">
 
     <Banner/>
-    {/* <Product products={products}/> */}
+    <Product products={products}/>
+    
    
 
     </main>
