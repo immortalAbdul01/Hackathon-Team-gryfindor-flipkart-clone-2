@@ -17,7 +17,7 @@ function Navbar() {
        <div className='flex items-center bg-blue-500 p-1 flex-grow py-2 '>
             <div className='mt-2 flex items-center flex-grow sm:flex-grow-0'>
                 <Image onClick={()=>router.push('/')}
-                src='https://lh3.googleusercontent.com/9P7QItdDu-Kot7Pebobrhczkm3w7_pMNtiFcY0UVMj-QC_tflcddJZaB-1qFfCmqLA=h556' width={150} height={80} objectFit='contain' className='cursor-pointer'/>
+                src='https://logos-world.net/wp-content/uploads/2020/11/Flipkart-Emblem.png' width={150} height={80} objectFit='contain' className='cursor-pointer'/>
             </div>
             <div className='hidden sm:flex bg-green-400 items-center h-10 rounded-md hover:bg-yellow-500 flex-grow cursor-pointer'>
                 <input className='p-2 h-full w-6 flex-grow flex-shrink rounded-l-md focus:outline-none px-4' type="text" />
