@@ -18,6 +18,8 @@ function Navbar() {
             <div className='mt-2 flex items-center flex-grow sm:flex-grow-0'>
                 <Image onClick={()=>router.push('/')}
                 src='https://logos-world.net/wp-content/uploads/2020/11/Flipkart-Emblem.png' width={150} height={80} objectFit='contain' className='cursor-pointer'/>
+                     <Image onClick={()=>router.push('https://github.com/immortalAbdul01/Hackathon-Team-gryfindor-flipkart-clone-2')}
+                src='https://www.pngarts.com/files/8/Github-Logo-Transparent-Background-PNG.png' width={150} height={80} objectFit='contain' className='cursor-pointer'/>
             </div>
             <div className='hidden sm:flex bg-green-400 items-center h-10 rounded-md hover:bg-yellow-500 flex-grow cursor-pointer'>
                 <input className='p-2 h-full w-6 flex-grow flex-shrink rounded-l-md focus:outline-none px-4' type="text" />
