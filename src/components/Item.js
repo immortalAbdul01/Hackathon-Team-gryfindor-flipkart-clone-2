@@ -39,7 +39,7 @@ function Item({id,title,price,description, category,image}) {
   currency="INR"
 />
     </div>
-    <button className='mt-auto button' onClick={addItem}> Add to chor bazzar Bag</button>
+    <button className='mt-auto button' onClick={addItem}> Add to flipkar bag</button>
     </div>
   )
 }
